@@ -1,0 +1,51 @@
+.game
+{
+    width: 10rem;
+    height: 5rem;
+    background-color: green;
+  animation: movings 8s infinite ease-in-out  backwards;
+  tra
+
+}
+@keyframes moving {
+
+    
+ 0%
+{
+    transform: translateX(10rem);
+}
+10%
+{
+    transform: translateX(20rem);
+}
+10%
+{
+    transform: translateY(15rem);
+}
+20%
+{
+    transform: translateY(20rem);
+}
+30%
+{
+    transform: translateX(-25rem);
+}
+40%
+{
+    transform: translateY(-30rem);
+}
+50%
+{
+    transform: translateX(35rem);
+}
+    }
+
+ 
+.container
+{
+    width: 60rem;
+    height: 30rem;
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(2px 0 1rem rgb(190, 120, 120));
+    overflow: hidden;
+}
